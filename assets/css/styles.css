@@ -1,0 +1,116 @@
+/*----------------------------------------------------- General */
+
+body {
+    color: #ba9950;
+}
+
+h1, h2 {
+    color: #ba9950;
+}
+
+/*----------------------------------------------------- Header */
+
+.nav-link {
+    color: #ba9950;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.btn-outline-success {
+    color: #ba9950;
+    border-color: #ba9950;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/burger-menu-nav-img.png);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ba9950;
+    text-decoration: underline;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+button.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+/*----------------------------------------------------- Seperator */
+
+.seperator {
+    background-color: #ba9950;
+    color: #fff;
+}
+
+.seperator p {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: end;
+    padding-right: 40px;
+}
+
+
+/*----------------------------------------------------- Hero Image */
+
+.hero-row {
+    background-color: #000;
+    padding: 20px;
+}
+
+.hero-columns {
+    background-color: #000;
+}
+
+.hero-header {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero-button {
+    margin-top: 20px;
+}
+
+.hero-image {
+    max-height: 400px;
+    background-color: #000;
+}
+
+/*----------------------------------------------------- Services Section */
+
+.services-container {
+    padding: 20px;
+}
+
+.services-header {
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.services-items-row {
+    padding: 50px;
+}
