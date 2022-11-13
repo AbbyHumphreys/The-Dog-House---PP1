@@ -29,6 +29,12 @@ h1, h2 {
     margin-right: 20px;
 }
 
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #ba9950;
+    border-color: #fff;
+}
+
 .navbar {
     padding: 20px;
 }
@@ -69,7 +75,7 @@ button.navbar-toggler:focus {
     margin-bottom: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: end;
+    text-align: center;
     padding-right: 40px;
 }
 
@@ -160,4 +166,37 @@ button.navbar-toggler:focus {
 
 .testimonial-p {
     color: #fff;
+}
+
+
+
+.form-header {
+    margin: 20px;
+}
+
+.form-section {
+    background-color: #000;
+    padding-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.social-links i {
+    color: #fff;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------------- Footer Section */
+
+.email-anchor a {
+    text-decoration: none;
+    color: #ba9950;
 }
