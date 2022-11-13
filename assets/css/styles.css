@@ -134,3 +134,30 @@ button.navbar-toggler:focus {
     background-color: #000;
     padding: 40px;
 }
+
+/*----------------------------------------------------- Testimonials Section */
+
+.figure-img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-item {
+    background-color: #000;
+}
+
+.testimonial-text p, .testimonial-subtitle {
+    font-size: 12px;
+}
+
+.figure-caption {
+    color: #ba9950;
+}
+
+.testimonial-title {
+    font-size: 1.1rem;
+}
+
+.testimonial-p {
+    color: #fff;
+}
