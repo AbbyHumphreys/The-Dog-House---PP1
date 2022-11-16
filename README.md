@@ -1,5 +1,7 @@
 # The Dog House
 
+[View the live site](https://abbyhumphreys.github.io/The-Dog-House---PP1/)
+
 ## Project Goals
 
 ### User Goals:

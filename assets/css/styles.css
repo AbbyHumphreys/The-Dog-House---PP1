@@ -1,5 +1,9 @@
 /*----------------------------------------------------- General */
 
+html, body {
+    overflow-x: hidden;
+  }
+
 body {
     color: #ba9950;
 }
@@ -26,7 +30,6 @@ h1, h2 {
     color: #ba9950;
     border-color: #ba9950;
     background-color: #fff;
-    margin-right: 20px;
 }
 
 .btn-outline-success:hover {
@@ -64,6 +67,14 @@ button.navbar-toggler:focus {
     margin-left: 5%;
 }
 
+.navbar ul {
+    float: right;
+}
+
+.navbar li{
+    text-align: right;
+}
+
 /*----------------------------------------------------- Seperator */
 
 .seperator {
@@ -76,7 +87,10 @@ button.navbar-toggler:focus {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    padding-right: 40px;
+}
+
+.seperator-top {
+    margin-top: 130px;
 }
 
 
@@ -104,8 +118,16 @@ button.navbar-toggler:focus {
 .hero-image {
     max-height: 400px;
     background-color: #000;
+    width: auto ;
+    max-width: 100% ;
 }
-
+/*
+.hero-image {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+*/
 /*----------------------------------------------------- Services Section */
 
 .services-container {
@@ -199,4 +221,17 @@ form {
 .email-anchor a {
     text-decoration: none;
     color: #ba9950;
+}
+
+
+/*----------------------------------------------------- Media Queries */
+
+@media screen and (max-width: 800px) {
+    .service-item {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+    }
+
+
 }

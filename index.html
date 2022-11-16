@@ -15,7 +15,7 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img class="logo" src="assets/images/The Dog House Logo.png" alt="The Dog House Logo">
@@ -26,7 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -44,14 +44,14 @@
                         </li>
                     </ul>
                 </div>
-                <a href="#book-section" class="btn btn-outline-success" role="button">Book</a>
+                <a href="#book-section" class="btn btn-outline-success book-btn-nav" role="button">Book</a>
             </div>
         </nav>
     </header>
 
     <!-- Seperator -->
 
-    <div class="container-fluid seperator">
+    <div class="container-fluid seperator seperator-top">
         <div class="row justify-content-end">
             <div class="col ">
                 <p class="">01745 886609</p>
@@ -89,31 +89,31 @@
                 <div class="col-3"></div>
             </div>
             <div class="row gx-5 gy-5 services-items-row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3 class="first-service-item"><i class="fa-solid fa-dog"></i> Full Groom</h3>
                     <p>Includes a pre-groom, 2 shampoo washes, blow dry, full body styling, eyes and ears cleaned and
                         nails clipped</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3><i class="fa-solid fa-spa"></i> Spa Treatment</h3>
                     <p>Treat your pooch to our hydrating Argan oil conditioning treatment and wildwash paw and nose balm
                     </p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3><i class="fa-solid fa-hands-bubbles"></i> Wash & Go</h3>
                     <p>Full use of all our facilities for 30 minutes, including our full-height bath, professional
                         drier, microfibre towels and even cologne</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3><i class="fa-solid fa-paw"></i> Paw & Nails</h3>
                     <p>Allow our groomers to trim your dogs nails. We file the nails too so they are neater, smoother
                         and safer.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3><i class="fa-solid fa-shield-dog"></i> Ear Cleaning</h3>
                     <p>Ears checked and wax removed. Ear hair trim as required</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3><i class="fa-solid fa-bath"></i> Bath & Brush</h3>
                     <p>This includes a wash with 2 shampoos, dry, nail clipping, ear cleaning and a brush</p>
                 </div>
@@ -147,7 +147,7 @@
                     <img class="img-fluid rounded" src="assets/images/IMG_0398.JPG" alt="">
                     <img class="img-fluid rounded" src="assets/images/IMG_0400.JPG" alt="">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 d-none d-md-block">
                     <img class="img-fluid rounded" src="assets/images/IMG_0401.JPG" alt="">
                     <img class="img-fluid rounded" src="assets/images/IMG_0402.JPG" alt="">
                     <img class="img-fluid rounded" src="assets/images/IMG_0404.JPG" alt="">
@@ -160,7 +160,7 @@
     <!-- Testimonials Section -->
 
     <section id="testimonials-section">
-        <div class="container-fluid services-container">
+        <div class="container-fluid">
             <div class="row services-row">
                 <div class="col-3"></div>
                 <div class="col-12 col-md-6 services-header text-center">
@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-3"></div>
             </div>
-            <div class="row gx-5 gy-5 ms-5 me-5 mb-4">
+            <div class="row gx-5 gy-5 ms-3 me-3 mb-4">
                 <div class="col-12 col-md-6">
                     <div class="row testimonial-item rounded">
                         <div class="col-4 mt-3 text-center">
@@ -183,7 +183,7 @@
                         <div class="col-8 testimonial-text pe-3">
                             <h4 class="testimonial-title mt-3">Leah Hughes <span class="testimonial-subtitle">(Rosie's Mum)</span></h3>
                             <p class="testimonial-p">Great service and made Rosie feel right at home. Her coat never looked and smelt so good!
-                                Thanks for taking care of her. We'll be back fr a pamper again soon</p>
+                                Thanks for taking care of her. We'll be back for a pamper again soon</p>
                         </div>
                     </div>
                 </div>
@@ -203,19 +203,19 @@
                     </div>
                 </div>
             </div>
-            <div class="row gx-5 gy-5 ms-5 me-5 mb-4">
+            <div class="row gx-5 gy-5 ms-3 me-3 mb-4">
                 <div class="col-12 col-md-6">
                     <div class="row testimonial-item rounded">
                         <div class="col-4 mt-3 text-center">
                             <figure class="figure">
-                                <img src="assets/images/Sula.JPG" class="figure-img img-fluid rounded-circle"
+                                <img src="assets/images/Bear.JPG" class="figure-img img-fluid rounded-circle"
                                     alt="...">
-                                <figcaption class="figure-caption text-center">Sula</figcaption>
+                                <figcaption class="figure-caption text-center">Bear</figcaption>
                             </figure>
                         </div>
                         <div class="col-8 testimonial-text pe-3">
-                            <h4 class="testimonial-title mt-3">Cheryl Drew <span class="testimonial-subtitle">(Sula's Mum)</span></h3>
-                            <p class="testimonial-p">Brought our Rottie Sula here today for a bath, she hates water usually but was surprisingly relaxed here. We finally have a clean dog!</p>
+                            <h4 class="testimonial-title mt-3">Rebecca Sheen <span class="testimonial-subtitle">(Bear's Mum)</span></h3>
+                            <p class="testimonial-p">Highly recommend The Dog House. Bear came home smelling amazing. He loved his pamper. Thanks again</p>
                         </div>
                     </div>
                 </div>
@@ -223,14 +223,14 @@
                     <div class="row testimonial-item rounded">
                         <div class="col-4 mt-3 text-center">
                             <figure class="figure">
-                                <img src="assets/images/Gus.JPG" class="figure-img img-fluid rounded-circle"
+                                <img src="assets/images/IMG_0401.JPG" class="figure-img img-fluid rounded-circle"
                                     alt="...">
-                                <figcaption class="figure-caption text-center">Gus</figcaption>
+                                <figcaption class="figure-caption text-center">Molly</figcaption>
                             </figure>
                         </div>
                         <div class="col-8 testimonial-text pe-3">
-                            <h4 class="testimonial-title mt-3">Adam Frobisher <span class="testimonial-subtitle">(Gus' Dad)</span></h3>
-                            <p class="testimonial-p">The staff were very friendly on arrival and my hound now smells like a baby! Thank you so much Meg</p>
+                            <h4 class="testimonial-title mt-3">Caroline Riley <span class="testimonial-subtitle">(Molly's Mum)</span></h3>
+                            <p class="testimonial-p">Holly was absolutely fantastic from start to finish! She listened to what I wanted and had full knowledge of how to cut a cocker spaniel</p>
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                 <div class="col-3"></div>
                 <div class="col-12 col-md-6 form-header text-center">
                     <h2>Book an Appointment</h2>
-                    <p>To book an appointment at Austins, as well as all general enquiries, call us on 01745 886609 or fill in the contact form below for a call back.</p>
+                    <p>To book an appointment at The Dog House or for all general enquiries, call us on 01745 886609 or fill in the contact form below for a call back.</p>
                 </div>
                 <div class="col-3"></div>
             </div>
