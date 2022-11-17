@@ -190,10 +190,6 @@ form {
     color: #ba9950;
 }
 
-.services-items-row {
-    text-align: center;
-}
-
 /*----------------------------------------------------- Buttons */
 
 .btn-outline-success {
@@ -217,6 +213,5 @@ form {
         padding-right: 0;
         text-align: justify;
     }
-
 
 }
