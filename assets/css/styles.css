@@ -96,6 +96,10 @@ button.navbar-toggler:focus {
 
 /*----------------------------------------------------- Hero Image */
 
+.hero-section {
+    margin-top: 164px;
+}
+
 .hero-row {
     background-color: #000;
     padding: 20px;
@@ -121,13 +125,7 @@ button.navbar-toggler:focus {
     width: auto ;
     max-width: 100% ;
 }
-/*
-.hero-image {
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-  }
-*/
+
 /*----------------------------------------------------- Services Section */
 
 .services-container {
