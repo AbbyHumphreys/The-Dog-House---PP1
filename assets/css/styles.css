@@ -4,17 +4,7 @@ html, body {
     overflow-x: hidden;
   }
 
-body {
-    color: #ba9950;
-}
-
-h1, h2 {
-    color: #ba9950;
-}
-
-/*----------------------------------------------------- Header */
-
-.nav-link {
+body, h1, h2 {
     color: #ba9950;
 }
 
@@ -22,24 +12,19 @@ h1, h2 {
     padding: 0px;
 }
 
-.logo {
-    height: 80px;
-}
-
-.btn-outline-success {
-    color: #ba9950;
-    border-color: #ba9950;
-    background-color: #fff;
-}
-
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #ba9950;
-    border-color: #fff;
-}
+/*----------------------------------------------------- Header */
 
 .navbar {
     padding: 20px;
+}
+
+.nav-link {
+    color: #ba9950;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 5%;
 }
 
 .navbar-toggler-icon {
@@ -61,10 +46,6 @@ h1, h2 {
 
 button.navbar-toggler:focus {
     box-shadow: none;
-}
-
-.logo {
-    margin-left: 5%;
 }
 
 .navbar ul {
@@ -219,6 +200,20 @@ form {
 .email-anchor a {
     text-decoration: none;
     color: #ba9950;
+}
+
+/*----------------------------------------------------- Buttons */
+
+.btn-outline-success {
+    color: #ba9950;
+    border-color: #ba9950;
+    background-color: #fff;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #ba9950;
+    border-color: #fff;
 }
 
 
