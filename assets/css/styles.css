@@ -134,11 +134,26 @@ button.navbar-toggler:focus {
     margin-top: 20px;
 }
 
+/* Keyframes animation adapted from the Code Insitute Love Running Project */
+
 .hero-image {
     max-height: 400px;
     background-color: #000;
     width: auto ;
     max-width: 100% ;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 /*----------------------------------------------------- Services Section */
