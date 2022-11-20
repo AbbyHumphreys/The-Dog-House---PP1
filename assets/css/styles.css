@@ -41,9 +41,16 @@ body, h1, h2 {
     color: #ba9950;
 }
 
+/* Transition learnt from https://www.w3schools.com/howto/howto_css_zoom_hover.asp and adapted for use here */
+
 .logo {
     height: 80px;
     margin-left: 5%;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(0.9);
 }
 
 .navbar-toggler-icon {
@@ -62,6 +69,11 @@ body, h1, h2 {
 .nav-link:hover {
     color: #fff;
 }
+
+.nav-link:active {
+    color: 	#4a3d20;
+}
+
 
 button.navbar-toggler:focus {
     box-shadow: none;
@@ -92,7 +104,6 @@ button.navbar-toggler:focus {
 .seperator-top {
     margin-top: 130px;
 }
-
 
 /*----------------------------------------------------- Hero Image */
 
@@ -182,6 +193,10 @@ form {
     color: #fff;
 }
 
+.social-links i:hover {
+    color:#000;
+}
+
 .social-links a {
     text-decoration: none;
 }
@@ -208,6 +223,21 @@ form {
     border-color: #fff;
 }
 
+.btn-outline-success:active {
+    background-color: 	#4a3d20!important;
+    border-color: 	#4a3d20!important;
+}
+
+/*----------------------------------------------------- Phone States */
+
+.phone a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-phone a {
+    color: #ba9950;
+}
 
 /*----------------------------------------------------- Media Queries */
 
