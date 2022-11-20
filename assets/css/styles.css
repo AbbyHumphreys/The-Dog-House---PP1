@@ -31,6 +31,10 @@ body, h1, h2 {
     background-color: #000;
 }
 
+.txt-color-1, .txt-color-1 h3, .txt-color-1 h2 {
+    color: #96793C;
+}
+
 /*----------------------------------------------------- Header */
 
 .navbar {
@@ -41,7 +45,7 @@ body, h1, h2 {
     color: #ba9950;
 }
 
-/* Transition learnt from https://www.w3schools.com/howto/howto_css_zoom_hover.asp and adapted for use here */
+/* Transition found at https://www.w3schools.com/howto/howto_css_zoom_hover.asp and adapted for use here */
 
 .logo {
     height: 80px;
