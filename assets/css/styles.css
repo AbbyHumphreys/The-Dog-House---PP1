@@ -32,7 +32,11 @@ body, h1, h2 {
 }
 
 .txt-color-1, .txt-color-1 h3, .txt-color-1 h2 {
-    color: #96793C;
+    color: #000;
+}
+
+.txt-color-2 {
+    color: #fff;
 }
 
 /*----------------------------------------------------- Header */
@@ -95,7 +99,7 @@ button.navbar-toggler:focus {
 
 .seperator {
     background-color: #ba9950;
-    color: #fff;
+    color: #000;
 }
 
 .seperator p {
@@ -208,13 +212,13 @@ form {
 
 /*----------------------------------------------------- Seperator Bottom */
 
-.social-links i {
+/*.social-links i {
     color: #fff;
 }
 
 .social-links i:hover {
     color:#000;
-}
+} */
 
 .social-links a {
     text-decoration: none;
@@ -231,7 +235,7 @@ form {
 /*----------------------------------------------------- Buttons */
 
 .btn-outline-success {
-    color: #ba9950;
+    color: #000;
     border-color: #ba9950;
     background-color: #fff;
 }
@@ -251,7 +255,6 @@ form {
 
 .phone a {
     text-decoration: none;
-    color: #fff;
 }
 
 .contact-phone a {
