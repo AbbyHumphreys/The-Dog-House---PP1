@@ -25,6 +25,10 @@ body, h1, h2 {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*----------------------------------------------------- Colors */
 
 .bg-color-1 {
@@ -67,7 +71,6 @@ body, h1, h2 {
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #ba9950;
-    text-decoration: underline;
 }
 
 .nav-link {
@@ -210,25 +213,9 @@ form {
     margin: 0 auto;
 }
 
-/*----------------------------------------------------- Seperator Bottom */
-
-/*.social-links i {
-    color: #fff;
-}
-
-.social-links i:hover {
-    color:#000;
-} */
-
-.social-links a {
-    text-decoration: none;
-}
-
-
 /*----------------------------------------------------- Footer Section */
 
 .email-anchor a {
-    text-decoration: none;
     color: #ba9950;
 }
 
@@ -252,10 +239,6 @@ form {
 }
 
 /*----------------------------------------------------- Phone States */
-
-.phone a {
-    text-decoration: none;
-}
 
 .contact-phone a {
     color: #ba9950;
