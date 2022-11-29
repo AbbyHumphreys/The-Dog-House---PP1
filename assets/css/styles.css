@@ -80,7 +80,7 @@ a {
     background-image: url(../images/burger-menu-nav-img.png);
 }
 
-.nav-link {
+.nav-link, .book-link {
     margin-right: 20px;
 }
 
