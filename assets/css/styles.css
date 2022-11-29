@@ -6,12 +6,27 @@ html, body {
     overflow-x: hidden;
   }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Poppins', sans-serif;  
 }
 
 .container-fluid {
     padding: 0px;
+}
+
+/* Snippet taken from Stackflow 
+    https://stackoverflow.com/questions/39588914/how-do-i-add-a-data-offset-to-a-bootstrap-4-fixed-top-responsive-navbar
+    Pushes anchor down the height of the navbar */
+span.anchor {
+    margin-top: -164px; /* height of nav, in this case 54px */
+    display: block;
+    height: 164px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
 }
 
 .section-header {
@@ -177,9 +192,9 @@ button.navbar-toggler:focus {
 /*----------------------------------------------------- Testimonials Section */
 
 .figure-img {
-    width: 100px;
+    max-width: 100px;
+    height: 100px;
 }
-
 .testimonial-text p, .testimonial-subtitle {
     font-size: 12px;
 }
