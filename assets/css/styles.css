@@ -189,10 +189,14 @@ button.navbar-toggler:focus {
     margin-bottom: 5%;
 }
 
+.gallery-container {
+    text-align: center;
+}
+
 /*----------------------------------------------------- Testimonials Section */
 
 .figure-img {
-    max-width: 100px;
+    min-width: 100px;
     height: 100px;
 }
 .testimonial-text p, .testimonial-subtitle {
