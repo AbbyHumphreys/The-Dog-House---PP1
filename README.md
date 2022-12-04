@@ -220,11 +220,28 @@ I was then left with two alerts, which were ignore as they were deemed necessary
 * There are two links that go to the same place - Home link in the navigation bar and the home link in the Logo image.
 * Two links that go to the same place - Telephone number that can be clicked to call on a mobile device at the top of the page and the bottom of the page
 
+[Web Aim's](https://webaim.org/resources/contrastchecker/) contrast checker was used to ensure contrast between foreground and background colors was enough for accessibility purposes. The black background with #ba9950 passed, but the contrast between a white background and #ba9950 was not enough. A darker colour of the same shade was chosen (#96793C) to be used against any white backgrounds in the website. The bootstrap dark background (#212529) was chosen for the header and footer and this contrasted enough with the #ba9950 foreground text colour.
+
 # Wishlist
 
 During development and reflection on reviewing the final site, there are a few items that I would still like to incorporate in a future version of this website:
 
 * I would like to use javascript to make the navigation menu collapse into the hamburger icon when a link is clicked on.
 * I would like to connect the form up so that the information is sent by email to the owner.
+
+# Bugs
+
+Bugs were fixed in two ways - as the site was being built and after testing. To see bugs fixed during testing, please see the information in the [`testing section`](#testing) of this readme. For all other bugs, see below:
+
+**Problem:** White margin on right handside on mobile view.
+
+**Fix:** A quick search on [Stack Overflow](https://stackoverflow.com/questions/46012482/unwanted-white-space-on-right-side-in-mobile-view) found the answer this css was added to the style sheet
+~~~
+ html, body { overflow-x: hidden; }
+~~~
+
+**Problem:**  The social media links were all directed to the dog groomers Facebook page
+
+**Fix:**  Social media links were replaced with the correct ones
 
 
