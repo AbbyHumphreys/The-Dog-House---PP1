@@ -163,3 +163,68 @@ The footer then incorporates useful information including opening times, the sho
 * Balsamiq
 * Google Fonts
 * Font Awesome
+
+# Testing
+## Cross-Browser Testing
+This site was tested across the three most widely used browsers today - Google Chrome, Microsoft Edge and Safari. The site worked well across all three browsers and discrepancies were not found.
+## Compatibility Testing
+The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 and a Samsung s22
+## Responsiveness Testing
+Responsiveness was tested throughout the site development using Google Chrome Dev Tools. Bootstrap made responsivity much easier to achieve and then a few css rules were required to adjust the site for small to large devices.
+## User Testing
+All user stories were achieved as the content needed was present and easily visible on the site. The navigation was easily seen and useable on both large and small devices. Text was clearly legible and displayed on contrasting background to allow accessibility. All images and icons were used to enhance the experience on the site and did not detract or distract from the user achieving their desired outcome.
+
+## Validator Testing
+
+### HTML 
+
+HTML was testing using the [W3C Validator](https://validator.w3.org/) and the following errors were flagged and corrected:
+
+**Problem** The logo image file name had spaces in between the words.
+
+**Fix** The logo image file was renamed without spaces.
+
+**Problem** The container div inside the footer was missing a closing tag.
+
+**Fix** A closing tag was provided.
+
+**Problem** There were unnecessary descriptive roles describing the links as links 
+
+**Fix** The roles were removed from the anchor tags.
+
+### CSS
+
+CSS was tested using W3C Jigsaw [CSS Validator](https://jigsaw.w3.org/css-validator/) and passed. Two warnings were displayed but were not corrected for the following reasons:
+
+* Warning that there is the same color for background-color and border-color for the success buttons. This warning was ignored as this is a style choice and provides a clear indication that the button was clicked.
+
+* Warning that imported style sheets are not checked in direct input and file upload modes. As there is only one style sheet and this was checked by direct input, there was not a need to correct this warning.
+
+## Performance Testing
+[Google Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) extension was used to test performance and I was pleased with the results as shown below:
+
+![A screenshot of the lighthouse score for The Dog House website](/assets/images/lighthouse-score-screenshot.webp "Lighthouse Score for The Dog House")
+
+## Accessibility Testing
+Wave (https://wave.webaim.org/) accessibilty report highlighted the need for some improvement for accessibility:
+
+* Alt tags were added to images
+* Image sizes were reduced
+* Screen reader only information for social media icons were added
+* A heading size was skipped (i.e. there was not a h3), so the h4’s were changed to h3’s in the testimonial section
+* Button text colour was changed from gold to black for enough contrast and to fit in with site styling
+* Gold text on white background changed to black to increase contrast ratio
+
+I was then left with two alerts, which were ignore as they were deemed necessary for the site. The two alerts were:
+
+* There are two links that go to the same place - Home link in the navigation bar and the home link in the Logo image.
+* Two links that go to the same place - Telephone number that can be clicked to call on a mobile device at the top of the page and the bottom of the page
+
+# Wishlist
+
+During development and reflection on reviewing the final site, there are a few items that I would still like to incorporate in a future version of this website:
+
+* I would like to use javascript to make the navigation menu collapse into the hamburger icon when a link is clicked on.
+* I would like to connect the form up so that the information is sent by email to the owner.
+
+
