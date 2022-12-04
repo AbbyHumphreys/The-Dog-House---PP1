@@ -16,6 +16,35 @@ HTML and CSS will be the languages used to create this website.
     - [`Project Goals`](#project-goals)
     - [`User Experience`](#user-experience)
     - [`User Stories`](#user-stories)
+- [`Design`](#design)
+    - [`Wireframes`](#wireframes)
+    - [`Colour`](#colour)
+    - [`Typography`](#typography)
+    - [`Structure`](#structure)
+- [`Features`](#features)
+    - [`Header`](#header)
+    - [`Hero Image`](#hero-image)
+    - [`Services Section`](#services-section)
+    - [`Gallery Section`](#gallery-section)
+    - [`Testimonials Section`](#testimonials-section)
+    - [`Book An Appointment Section`](#book-an-appointment-section)
+    - [`Footer`](#footer)
+- [`Technologies Used`](#technologies-used)
+    - [`Languages`](#languages)
+    - [`Framework`](#framework)
+    - [`Tools`](#tools)
+- [`Testing`](#testing)
+    - [`Cross-Browser Testing`](#cross-browser-testing)
+    - [`Compatibility Testing`](#compatibility-testing)
+    - [`Responsiveness Testing`](#responsiveness-testing)
+    - [`User Testing`](#user-testing)
+    - [`Validator Testing`](#validator-testing)
+    - [`Performance Testing`](#performance-testing)
+    - [`Accessibility Testing`](#accessibility-testing)
+- [`Wishlist`](#wishlist)
+- [`Bugs`](#bugs)
+- [`Deployment`](#deployment)
+- [`Credits`](#credits)
 
 # User Experience (UX)
 
@@ -244,4 +273,45 @@ Bugs were fixed in two ways - as the site was being built and after testing. To 
 
 **Fix:**  Social media links were replaced with the correct ones
 
+# Deployment
+
+The following steps were taken to deploy the website on GitHub Pages:
+
+* The Code Insitute template was obtained from https://github.com/Code-Institute-Org/gitpod-full-template
+* A new repository was created in GitHub, the project was named
+* The green Gitpod button was pressed to open a new workspace/development environment (obtain the gitpod extension to enable the green button)
+* Git is used to commit during development and push this over to Github
+* To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
+* The main branch was chosen in the dropdown menu and the 'save' button was pressed. This supplied a live link the the website (https://abbyhumphreys.github.io/The-Dog-House---PP1/)
+
+To run this on your local machine:
+
+* Go to the Github repo at (https://github.com/AbbyHumphreys/The-Dog-House---PP1)
+* Click on the 'code' button and 'download zip'
+* Extract the zip file on your local machine
+* Run the index.html file in a browser
+
+# Credits
+
+**Code Institute** - I thoroughly enjoyed learning HTML, CSS and use of the Bootstrap framework through Code Insitute and have used guiding principles from the course throughout this website. I enjoyed using the hero image animation idea from the Love Running project and adjusted for use on this site.
+
+**Font Awesome** was used for the icons from the site and instructions were followed on how to install from their website (https://fontawesome.com/)
+
+**The Dog House** owners supplied and gave permission for use of all images on the site
+
+**Adobe Express** (https://express.adobe.com/spv) was used to resize the images for small, medium and large size devices.
+
+**TinyPNG** was used to reduce the file size of each image.
+
+**Image Online Convert** (https://image.online-convert.com/convert-to-webp) was used to convert the files to webp
+
+**Mozilla** provided the SRCSET snippet (https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images) and was recommended by my mentor **Rory Patrick-Sheridan**
+
+**Google Fonts** were the source for the Poppins font used throughout the site (https://fonts.google.com/) 
+
+**Bootstrap** (https://getbootstrap.com/) framework was used to implement responsiveness and style into the site with ease
+
+**Am I Reponsive** (https://ui.dev/amiresponsive) was used to create the first image in the readme file to show the responsiveness of the website
+
+All other text and coding was created by myself.
 
