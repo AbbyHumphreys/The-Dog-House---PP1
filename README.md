@@ -123,20 +123,28 @@ Originally gold text color on a white background, this was changed to black text
 
 Gallery Section
 
-The beautifully designed bootstrap gallery was used here to attractively display previous clients and showcase how talented the groomers are. The salon imagery really adds atmosphere and a feel for the groomers shop so that users know what type of atmosphere to expect when they arrive. Each image is shown on a different line on mobile devices so it was decided to reduce the number displayed on these devices to give the user a more positive experience and to avoid scroll boredom setting in. 
+![The gallery section of the website](/assets/images/gallery-section-screenshot.webp "Gallery Section")
+
+The beautifully designed bootstrap gallery was used here to attractively display previous clients and showcase how talented the groomers are. The imagery provided by the owners really adds a feel for the groomers shop so that users know what type of atmosphere to expect when they arrive. Each image is shown on a different line on mobile devices so it was decided to reduce the number displayed on these devices to give the user a more positive experience and to avoid scroll boredom setting in. 
 
 Testimonials Section
 
-In line with the user stories section, it was felt important to assure potential clients that their pooch would be in good hands and the testimonials section really lent a hand to this. Showcasing the groomed dog, personalising it with their name and then adding the lovely comments that clients had made creates a warm feeling for users and increasing the ability to trust the company. Again, on smaller devices, the testimonials stack one on top of the other for ease of scrolling. It is worth noting that each section starts with the same header - i.e. a title and then a small description, this helps the user learn that they have entered a new section and added familiarity and ease of learning to the site.
+![The testimonial section of the website](/assets/images/testimonials-section-screenshot.webp "Testimonial Section")
+
+In line with the user stories section, it was felt important to assure potential clients that their pooch would be in good hands and the testimonials section really lent a hand to this. Showcasing the groomed dog, personalising it with their name and then adding the lovely comments that clients had made creates a warm feeling for users and increasing the ability to trust the company. Again, on smaller devices, the testimonials stack one on top of the other for ease of scrolling. It is worth noting that each section of the website starts with the same header - i.e. a title and then a small description, this helps the user learn that they have entered a new section and added familiarity and ease of learning to the site.
 
 Book an Appointment Section
 
+![The book an appointment section of the website](/assets/images/book-section-screenshot.webp "Book an appointment Section")
+
 Users are encouraged to book an appointment either by phoning the groomers directly (the phone number was highlighted in white to draw user attention to it and make it easy to find) or by filling in a short form if messaging is preferred. On smaller devices the form inputs stack on top of each other for ease of filling in.
 
-Name, phone number and email address are required so that contact with the user can be made. Dogs breed and filling in a message was not required so as not to put the user off filling in the form as long as contact can be made. 
+Name, phone number and email address are required so that contact with the user can be made. So as not to put off the user, dogs breed and filling in a message was not required as long as contact can be made. 
 
 
 Footer
+
+![The footer section of the website](/assets/images/footer-section-screenshot.webp "Footer Section")
 
 The footer matches the header in reverse with the gold bar once again featuring call to actions to encourage the user to interact with and find out more via social media.
 
