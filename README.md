@@ -115,25 +115,25 @@ The logo reduces in size as you hover over it to indicate that is clickable.
 
 The photo of the dog is also used as their facebook profile image so this linked their brands together. The hero image gradually increases in size on page loading to attract and engage users, while the text clearly states the purpose of the website and encourages the user to contact the company. On small devices, the text is stacked on top of the hero image to ensure compatibility with devices that have smaller widths and the hero image and text automatically resize for each device width.
 
-Services Section
+## Services Section
 
 ![The services section of the website](/assets/images/services-section-screenshot.webp "Services Section")
 
 Originally gold text color on a white background, this was changed to black text on a white background to increase contrast and make the site more accessible. It lists a range of services and succinctly describes each one to assure the user of what the company does and what is available. Icons were used to attract the users eyes and allow them to quickly understand what type of service was being offered. On smaller devices, the services stack delightfully one on top of the other.
 
-Gallery Section
+## Gallery Section
 
 ![The gallery section of the website](/assets/images/gallery-section-screenshot.webp "Gallery Section")
 
 The beautifully designed bootstrap gallery was used here to attractively display previous clients and showcase how talented the groomers are. The imagery provided by the owners really adds a feel for the groomers shop so that users know what type of atmosphere to expect when they arrive. Each image is shown on a different line on mobile devices so it was decided to reduce the number displayed on these devices to give the user a more positive experience and to avoid scroll boredom setting in. 
 
-Testimonials Section
+## Testimonials Section
 
 ![The testimonial section of the website](/assets/images/testimonials-section-screenshot.webp "Testimonial Section")
 
 In line with the user stories section, it was felt important to assure potential clients that their pooch would be in good hands and the testimonials section really lent a hand to this. Showcasing the groomed dog, personalising it with their name and then adding the lovely comments that clients had made creates a warm feeling for users and increasing the ability to trust the company. Again, on smaller devices, the testimonials stack one on top of the other for ease of scrolling. It is worth noting that each section of the website starts with the same header - i.e. a title and then a small description, this helps the user learn that they have entered a new section and added familiarity and ease of learning to the site.
 
-Book an Appointment Section
+## Book an Appointment Section
 
 ![The book an appointment section of the website](/assets/images/book-section-screenshot.webp "Book an appointment Section")
 
@@ -142,10 +142,24 @@ Users are encouraged to book an appointment either by phoning the groomers direc
 Name, phone number and email address are required so that contact with the user can be made. So as not to put off the user, dogs breed and filling in a message was not required as long as contact can be made. 
 
 
-Footer
+## Footer
 
 ![The footer section of the website](/assets/images/footer-section-screenshot.webp "Footer Section")
 
 The footer matches the header in reverse with the gold bar once again featuring call to actions to encourage the user to interact with and find out more via social media.
 
 The footer then incorporates useful information including opening times, the shop location and contact information and on smaller devices they change from three separate columns to filling the width of the device and therefore they stack one on top of the other.
+
+# Technologies Used
+## Languages
+* HTML5
+* CSS3
+## Framework
+* Bootstrap v 5.2
+## Tools
+* Git
+* GitHub
+* Gitpod
+* Balsamiq
+* Google Fonts
+* Font Awesome
