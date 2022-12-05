@@ -77,6 +77,7 @@
                     <a href="#book-section" class="btn btn-outline-success hero-button txt-color-1 bg-color-3">Book</a>
                 </div>
                 <div class="col-md-6 hero-columns">
+                    <!-- SRCSET's used to aid page loading (see readme for snippet) -->
                     <img class="hero-image"
                         sizes="(max-width: 576px) calc(100vw - 10px) 576px, (max-width: 768px) calc(100vw - 10px) 768px, (min-width: 769px) 33.3%"
                         src="assets/images/hero-image-lg.webp"
@@ -89,10 +90,12 @@
 
     <!-- Services Section-->
 
+    <!-- Anchor class used to bring the user to the top of the section -->
     <span class="anchor" id="services-section"></span>
     <section id="services-section">
         <div class="container-fluid txt-color-1 sections-container">
             <div class="row">
+                <!-- Bootstrap columns used to centre the section header in larger views -->
                 <div class="col-md-3"></div>
                 <div class="col-12 col-md-6 section-header text-center">
                     <h2>Services</h2>
@@ -102,6 +105,7 @@
                 <div class="col-md-3"></div>
             </div>
             <div class="row gx-5 gy-5 services-items-row">
+                <!-- Single column layout for small devices, 2 columns foe medium devices and three columns for large devices -->
                 <div class="col-12 col-md-6 col-lg-4 service-item">
                     <h3 class="first-service-item txt-color-1"><i class="fa-solid fa-dog" aria-hidden="true"></i> Full
                         Groom</h3>
@@ -194,6 +198,7 @@
                         srcset="assets/images/gallery-image-8-sm.webp 576w, assets/images/gallery-image-8-md.webp 768w, assets/images/gallery-image-8-lg.webp 2048w"
                         alt="Groomed fawn French Bull Dog looking out of the salon window" />
                 </div>
+                <!-- The next div of 4 images is hidden on small devices for better user experience -->
                 <div class="col-12 col-md-4 d-none d-md-block">
                     <img class="img-fluid rounded"
                         sizes="(max-width: 576px) 100vw, (max-width: 768px) 100vw, (min-width: 769px) 100vw"
@@ -238,8 +243,10 @@
             <div class="row gx-5 gy-5 ms-3 me-3 mb-4">
                 <div class="col-12 col-md-6">
                     <div class="row testimonial-item rounded bg-color-1">
+                        <!-- Column width larger for the image on smaller devices to keep correct proportions and prevent overlap with the testimonial text -->
                         <div class="col-5 col-md-4 mt-3 text-center">
                             <figure class="figure">
+                                <!-- Image size and file size reduced appropriately for the image size used -->
                                 <img src="assets/images/rosie-300w.webp" class="figure-img img-fluid rounded-circle"
                                     alt="Rosie the black Cockapoo posing in her back garden">
                                 <figcaption class="figure-caption text-center txt-color-3">Rosie</figcaption>
@@ -327,8 +334,10 @@
                 <div class="col-md-3"></div>
             </div>
             <div class="container-fluid">
-                <form action="https://formdump.codeinstitute.net/" method="POST">
+                <!-- Code Institute form page used for action attribute. This is will be replaced for live site using javascript -->
+                <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                     <div class="row ms-5 me-5">
+                        <!-- Each label and attribute spans full width on small devices for readibility purposes-->
                         <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="fullname" class="form-label">Owner's Name:</label>
@@ -385,15 +394,17 @@
         <div class="row justify-content-center">
             <div class="col social-links">
                 <p>
-                    <a class="txt-color-1" href="https://www.facebook.com/profile.php?id=100083360560310">
+                    <!-- Social Links to live pages used with permission from the Owners of The Dog House -->
+                    <a class="txt-color-1" href="https://www.facebook.com/profile.php?id=100083360560310" target="_blank">
                         <i class="fa-brands fa-facebook txt-color-1"></i>
+                        <!-- As there is no text in this section (icons used) the sr-only class was introduced to help with accessibility -->
                         <span class="sr-only">Facebook</span>
                     </a>
-                    <a class="ms-5 ps-5 me-5 pe-5 txt-color-1" href="https://www.instagram.com/thedoghousenw/">
+                    <a class="ms-5 ps-5 me-5 pe-5 txt-color-1" href="https://www.instagram.com/thedoghousenw/" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
-                    <a class="txt-color-1" href="https://www.tiktok.com/@thedoghousenw">
+                    <a class="txt-color-1" href="https://www.tiktok.com/@thedoghousenw" target="_blank">
                         <i class="fa-brands fa-tiktok"></i>
                         <span class="sr-only">Tiktok</span>
                     </a>
@@ -435,30 +446,14 @@
                     <p class="phone contact-phone">Phone: <a class="txt-color-3" href="tel:01745886609">01745 886609</a>
                     </p>
                     <p class="email-anchor">Email: <a class="txt-color-3"
-                            href="mailto:info@thedoghouse.co.uk">info@thedoghouse.co.uk</a></p>
+                            href="mailto:info@thedoghouse.co.uk" target="_blank">info@thedoghouse.co.uk</a></p>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
-
-
-
-
-
-
-
 </body>
 
 </html>

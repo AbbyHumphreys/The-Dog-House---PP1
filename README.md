@@ -271,7 +271,22 @@ Bugs were fixed in two ways - as the site was being built and after testing. To 
 
 **Problem:**  The social media links were all directed to the dog groomers Facebook page
 
-**Fix:**  Social media links were replaced with the correct ones
+**Fix:**  Social media links were replaced with the correct 
+
+**Problem:** The fixed header meant the tops of each section were hidden by the header when the navigation links were pressed
+
+**Fix:** Stack Overflow was very help in finding a solution. The resolution was taken and adapted from the following thread (https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header). I included a span above each section with an anchor class. Then the following CSS was included in the stylesheet to offset the header.
+
+~~~
+span.anchor {
+    margin-top: -164px; /* height of nav, in this case 54px */
+    display: block;
+    height: 164px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+~~~
+
 
 # Deployment
 
