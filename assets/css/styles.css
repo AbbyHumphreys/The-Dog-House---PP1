@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #fff;
+}
+
 /*----------------------------------------------------- Colors */
 
 .bg-color-1 {
@@ -137,6 +141,7 @@ button.navbar-toggler:focus {
 
 /*----------------------------------------------------- Hero Image */
 
+/* the margin clears the fixed header and seperator */
 #hero-section {
     margin-top: 164px;
 }
@@ -203,7 +208,7 @@ button.navbar-toggler:focus {
     height: 100px;
 }
 .testimonial-text p, .testimonial-subtitle {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .testimonial-title {
@@ -215,6 +220,10 @@ button.navbar-toggler:focus {
 form {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.phone-book a:hover {
+    color: #ba9950;
 }
 
 /*----------------------------------------------------- Buttons */
@@ -232,6 +241,21 @@ form {
 .btn-outline-success:active {
     background-color: 	#4a3d20!important;
     border-color: 	#4a3d20!important;
+}
+
+/*----------------------------------------------------- Bottom Seperator */
+
+/* Icons get larger in hover state */
+.fa-brands {
+    transition: transform .2s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
+
+.social-links a:hover {
+    color: #212529;
 }
 
 /*----------------------------------------------------- Media Queries */
