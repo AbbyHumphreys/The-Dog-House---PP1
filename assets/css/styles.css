@@ -268,9 +268,3 @@ form {
     }
 
 }
-
-@media screen and (min-width: 768px) {
-    .navbar-collapse {
-        margin-top: 0;
-    }
-}
