@@ -154,13 +154,13 @@ Originally gold text color on a white background, this was changed to black text
 
 ![The gallery section of the website](/assets/images/gallery-section-screenshot.webp "Gallery Section")
 
-The beautifully designed bootstrap gallery was used here to attractively display previous clients and showcase how talented the groomers are. The imagery provided by the owners really adds a feel for the groomers shop so that users know what type of atmosphere to expect when they arrive. Each image is shown on a different line on mobile devices so it was decided to reduce the number displayed on these devices to give the user a more positive experience and to avoid scroll boredom setting in. 
+The beautifully designed bootstrap gallery was used here to attractively display previous clients and showcase how talented the groomers are. The imagery provided by the owners really adds a feel for the groomers shop so that users know what type of atmosphere to expect when they arrive. Each image is shown on a different line on mobile devices so it was decided to reduce the number displayed on these devices to give the user a more positive experience and to avoid scroll boredom setting in. SRCSET's where used to aid responsivity and page loading times.
 
 ## Testimonials Section
 
 ![The testimonial section of the website](/assets/images/testimonials-section-screenshot.webp "Testimonial Section")
 
-In line with the user stories section, it was felt important to assure potential clients that their pooch would be in good hands and the testimonials section really lent a hand to this. Showcasing the groomed dog, personalising it with their name and then adding the lovely comments that clients had made creates a warm feeling for users and increasing the ability to trust the company. Again, on smaller devices, the testimonials stack one on top of the other for ease of scrolling. It is worth noting that each section of the website starts with the same header - i.e. a title and then a small description, this helps the user learn that they have entered a new section and added familiarity and ease of learning to the site.
+In line with the user stories section, it was felt important to assure potential clients that their pooch would be in good hands and the testimonials section really lent a hand to this. Showcasing the groomed dog, personalising it with their name and then adding the lovely comments that clients had made creates a warm feeling for users and increasing the ability to trust the company. Again, on smaller devices, the testimonials stack one on top of the other for ease of scrolling. It is worth noting that each section of the website starts with the same header - i.e. a title and then a small description, this helps the user learn that they have entered a new section and added familiarity and ease of learning to the site. After reviewing the section, it was felt that the article tag would be appropriate to enclose each testimonial. The article included the dog image and name, the dogs owner's name and their testimonial. They are a relevant section on their own and as they website grows in the future they could pop up in their own right at different points in the website.
 
 ## Book an Appointment Section
 
@@ -287,6 +287,9 @@ span.anchor {
 }
 ~~~
 
+**Problem:** On small devices under 300px the text of each individual testimonial was crossing over onto the relating image.
+
+**Fix:** The 'sm' breakpoint was added to the margin start and end properties of the outer testimonial rows.
 
 # Deployment
 
