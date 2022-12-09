@@ -215,6 +215,11 @@ button.navbar-toggler:focus {
     font-size: 1.1rem;
 }
 
+.testimonial-strong {
+    color: #ba9950;
+    font-size: 0.9rem;
+}
+
 /*----------------------------------------------------- Book Section */
 
 form {
