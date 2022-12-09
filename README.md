@@ -203,6 +203,27 @@ Responsiveness was tested throughout the site development using Google Chrome De
 ## User Testing
 All user stories were achieved as the content needed was present and easily visible on the site. The navigation was easily seen and useable on both large and small devices. Text was clearly legible and displayed on contrasting background to allow accessibility. All images and icons were used to enhance the experience on the site and did not detract or distract from the user achieving their desired outcome.
 
+### First-time User
+As a first-time user:
+
+1. I want to know where the dog groomers is located
+2. I want to know what services are available
+3. I want to see what previous client's dog look like after a groom
+4. I want to get a feel of what to expect at the dog groomers
+### Returning User
+As a returning user:
+1. I want to see examples of groomed dogs
+2. I want to know the opening times
+3. I want to find a phone number to be able to book a groom
+4. I want to see customers testimonials
+5. I want to find the dog groomers on social media
+6. I want to find the location of the dog groomers
+### Site Owner
+1. I want customers to know what services we offer
+2. I want customers to know our opening times
+3. I want customers to be able to contact us and locate our premises
+4. I want customers to have a positive feeling towards us
+
 ## Validator Testing
 
 ### HTML 
