@@ -207,22 +207,63 @@ All user stories were achieved as the content needed was present and easily visi
 As a first-time user:
 
 1. I want to know where the dog groomers is located
+
+    - This is achieved in the footer section which can be found through the contact nav link and is visible by a location icon and the address of the dog groomers.
+
 2. I want to know what services are available
+
+    - This is achieved via the services link. A list of the available services is available with descriptions of what each servcie entails and the icons make finding the relevant service quick and easy.
+
 3. I want to see what previous client's dog look like after a groom
+
+    - This is achieved through the gallery link which provides a beautiful visual of different types of groomed dogs.
+
 4. I want to get a feel of what to expect at the dog groomers
+
+    - This is achieved via the overall branding of the site using the colour palette used in the shop. The logo is similar to the one used in the shop window and the gallery pictures let the user feel the ambience of the shop.
+
 ### Returning User
 As a returning user:
 1. I want to see examples of groomed dogs
+
+    - This is achieved via the gallery of groomed dogs.
+
 2. I want to know the opening times
+
+    - This is achieved via the contact nav link which takes you to the footer of the page and shows you the opening hours and an open door icon.
+
 3. I want to find a phone number to be able to book a groom
+
+    - This is achieved via the phone number in the gold seperator bar at the top of the page, the phone number in the header text of the book an appointment section or via the contact link which directs the user to the footer which contains the phone number of the salon.
+
 4. I want to see customers testimonials
+
+    - The testimonials link takes you to four lovely reviews from existing customers. The images of well groomed dogs from those customers affirms that this is a well respected groomers.
+
 5. I want to find the dog groomers on social media
+
+    - This is achieved via the social media icons at the bottom of the page just about the footer. They link directly through to the relevant live social media channels of the shop and open up in another tab so they the user can still peruse the site.
+
 6. I want to find the location of the dog groomers
+
+    - The location of the shop is found via the contact nav link and is display by the location icon for easy reference.
+
 ### Site Owner
 1. I want customers to know what services we offer
+
+    - The services section navigated to via the services link displays the available services and describes what the service is. The handy icons draw the users eyes and makes it easy to understand quickly what services are available.
+
 2. I want customers to know our opening times
+
+    - The opening hours are displayed in the footer of the website and can be found quickly via the contact nav link. The open door icon helps users find the opening times easily.
+
 3. I want customers to be able to contact us and locate our premises
+
+    - Various calls to action are displayed throughout the site inluding two links to direct the user to the book an appointment form. The phone number is repeated three times throughout the site. Social media icons link through to their relative sites for customers to contact them in a familiar way and the email address is displayed in the contact information in the footer.
+
 4. I want customers to have a positive feeling towards us
+
+    - Moments of delight are given to the customer by the movement of the hero image, the easy navigation to different aspects of the site. The numerous ways to contact the shop and through a visual feast given by the UX design.
 
 ## Validator Testing
 
