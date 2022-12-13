@@ -125,6 +125,11 @@ The colour palette was taken from the branding already used by this well establi
 ## Typography
 The Poppins font from [Google Fonts](https://fonts.google.com/) is the main font used throughout the site. It is used frequently by many web developers and is easy on the eye. Sans Serif is set as a backup should the Poppins font fail to load.
 
+## Code Structure
+Bootstrap grid system and responsiveness was used throughout the site and the HTML was organised in an effective way according to bootstrap useability. 
+
+The CSS file was written in a way to utilise the cascading nature of CSS and in such a manner that general styles including colors are found at the top, then styles for each section as found in their define order (as found when browsing the site) and then media queries at the bottom.
+
 ## Structure
 This website was design with mobile users first most in mind as the current customer base majority uses mobile devices to find the groomers. With this in mind, a single page website was chosen as it creates a better experience for mobile users. The page is structured in a familiar, user friendly, and easy to learn way. The navigation bar with the shop logo on the left side and the navigation links to the right is a view that users are used to and link to the different sections of the webpage.  Priority of the sections was based on the buying experience - that the user needs information on what is available (services), confirmation that this dog groomers is the right choice (gallery and testimonials sections) and then the ability to contact (booking and contact section). However, it was felt that the ability to find the booking section or phone number straight away was especially important for returning customers which is why they are found at strategic places throughout the site including the header. The website consists of the following sections:
 * A home section with a hero image and small description of the business. 
