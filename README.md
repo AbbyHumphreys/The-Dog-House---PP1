@@ -186,6 +186,10 @@ The footer matches the header in reverse with the gold bar once again featuring 
 
 The footer then incorporates useful information including opening times, the shop location and contact information and on smaller devices they change from three separate columns to filling the width of the device and therefore they stack one on top of the other.
 
+## 404 Error
+
+A 404 page was added to the root folder as when researched it was discovered that github pages has an automated system for finding the 404 page in this folder to handle errors.
+
 # Technologies Used
 ## Languages
 * HTML5
