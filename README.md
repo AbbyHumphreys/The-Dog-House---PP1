@@ -4,7 +4,7 @@
 
 [View the live site](https://abbyhumphreys.github.io/The-Dog-House---PP1/)
 
-This is The Dog House, a local dog grooming salon in Prestatyn, North Wales. The website will help new and returning users to find useful information about the dog groomers and enable them to contact the groomers to book an appointment or for general enquiries.
+This is The Dog House, a local dog grooming salon in Prestatyn, North Wales. This website was designed for real-life use for the above company. The website will help new and returning users to find useful information about the dog groomers and enable them to contact the groomers to book an appointment or for general enquiries.
 
 The aim of this project is to provide a responsive, easy to use and easy to learn website that is aesthetically pleasing and useful to the users.
 
@@ -126,7 +126,7 @@ The colour palette was taken from the branding already used by this well establi
 The Poppins font from [Google Fonts](https://fonts.google.com/) is the main font used throughout the site. It is used frequently by many web developers and is easy on the eye. Sans Serif is set as a backup should the Poppins font fail to load.
 
 ## Structure
-The page is structured in a familiar, user friendly, and easy to learn way. The navigation bar with the shop logo on the left side and the navigation links to the right is a view that users are used to and link to the different sections of the webpage.  The website consists of four sections :
+This website was design with mobile users first most in mind as the current customer base majority uses mobile devices to find the groomers. With this in mind, a single page website was chosen as it creates a better experience for mobile users. The page is structured in a familiar, user friendly, and easy to learn way. The navigation bar with the shop logo on the left side and the navigation links to the right is a view that users are used to and link to the different sections of the webpage.  Priority of the sections was based on the buying experience - that the user needs information on what is available (services), confirmation that this dog groomers is the right choice (gallery and testimonials sections) and then the ability to contact (booking and contact section). However, it was felt that the ability to find the booking section or phone number straight away was especially important for returning customers which is why they are found at strategic places throughout the site including the header. The website consists of the following sections:
 * A home section with a hero image and small description of the business. 
 * A section detailing the services offered
 * A gallery section with images of previously groomed dogs
@@ -139,7 +139,7 @@ The page is structured in a familiar, user friendly, and easy to learn way. The 
 
 ![The header for the website](/assets/images/header-screenshot.webp "Header")
 
-The header follows a format users will be familiar with. It is fixed to the top of the page so the usercan navigate to different parts of the page at all times. The logo is placed on the left-hand side and links back to the top of the page. The navigation links on the right hand side link to different sections on this one page website. Smooth scrolling was introduced via CSS to ensure a good user experience. In small devices, a hamburger menu icon (familiar to users of mobile devices) contains the navigation links and drops down when pressed. 
+The header follows a format users will be familiar with. It is fixed to the top of the page so the user can navigate to different parts of the page at all times. This was chosen in place of a back to top button on each section to ensure readability on small devices but to still enable users to navigate to different sections of the website at will. The logo is placed on the left-hand side and links back to the top of the page. The navigation links on the right hand side link to different sections on this one page website. Smooth scrolling was introduced via CSS to ensure a good user experience. In small devices, a hamburger menu icon (familiar to users of mobile devices) contains the navigation links and drops down when pressed. 
 
 Two call to actions are placed at the top of the page in line with the user stories to encourage users to book an appointment using the “Book” link or to phone using the uniquely placed phone number. I really wanted the phone number to be upfront and visible at all times and although this may break slightly from convention, it was designed this way to be central, visible and interactive (click to call on mobile devices).
 
@@ -201,6 +201,8 @@ The footer then incorporates useful information including opening times, the sho
 * Font Awesome
 
 # Testing
+
+Manual testing and responsiveness was tested throughout development to adjust the website as features were added. It was decided to wait until the skeleton structure was there before validation was tested to ensure the code base was sound enough to be tested.
 ## Cross-Browser Testing
 This site was tested across the three most widely used browsers today - Google Chrome, Microsoft Edge and Safari. The site worked well across all three browsers and discrepancies were not found.
 ## Compatibility Testing
