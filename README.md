@@ -102,7 +102,14 @@ As a returning user:
 
 ## Wireframes
 
-The following wireframes were created during the design process with [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAhKycBhAQEiwAgf19etPR1ccdA0Aiezm63MsBy4PezCLSlN1T14ubQH1pMB7oa7Hz9YqWHhoC-VEQAvD_BwE).
+The following wireframes were created near the beginning of the design process with [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAhKycBhAQEiwAgf19etPR1ccdA0Aiezm63MsBy4PezCLSlN1T14ubQH1pMB7oa7Hz9YqWHhoC-VEQAvD_BwE).
+
+![Wireframe of the header and hero image sections](/assets/images/header-hero-wireframe.webp "Header and Hero Section")
+![Wireframe of the services section](/assets/images/services-wireframe.webp "Services Wireframe")
+![Wireframe of the gallery section](/assets/images/gallery-wireframe.webp "Gallery Wireframe")
+![Wireframe of the testimonials section](/assets/images/testimonials-wireframe.webp "Testimonial Wireframe")
+![Wireframe of the book an appointment section](/assets/images/book-wireframe.webp "Book an Appointment Wireframe")
+![Wireframe of the contact/footer section](/assets/images/footer-wireframe.webp "Contact Wireframe")
 
 ## Colour
 The colour palette was taken from the branding already used by this well established company. This was to ensure brand continuity throughout all their digital and tangible marketing assets.
