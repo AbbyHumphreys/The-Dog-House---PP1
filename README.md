@@ -370,19 +370,19 @@ span.anchor {
 
 The following steps were taken to deploy the website on GitHub Pages:
 
-* The Code Insitute template was obtained from https://github.com/Code-Institute-Org/gitpod-full-template
-* A new repository was created in GitHub, the project was named
-* The green Gitpod button was pressed to open a new workspace/development environment (obtain the gitpod extension to enable the green button)
-* Git is used to commit during development and push this over to Github
-* To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
-* The main branch was chosen in the dropdown menu and the 'save' button was pressed. This supplied a live link the the website (https://abbyhumphreys.github.io/The-Dog-House---PP1/)
+1. The Code Insitute template was obtained from https://github.com/Code-Institute-Org/gitpod-full-template
+2. A new repository was created in GitHub, the project was named
+3. The green Gitpod button was pressed to open a new workspace/development environment (obtain the gitpod extension to enable the green button)
+4. Git is used to commit during development and push this over to Github
+5. To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
+6. The main branch was chosen in the dropdown menu and the 'save' button was pressed. This supplied a live link the the website (https://abbyhumphreys.github.io/The-Dog-House---PP1/)
 
 To run this on your local machine:
 
-* Go to the Github repo at (https://github.com/AbbyHumphreys/The-Dog-House---PP1)
-* Click on the 'code' button and 'download zip'
-* Extract the zip file on your local machine
-* Run the index.html file in a browser
+1. Go to the Github repo at (https://github.com/AbbyHumphreys/The-Dog-House---PP1)
+2. Click on the 'code' button and 'download zip'
+3. Extract the zip file on your local machine
+4. Run the index.html file in a browser
 
 # Credits
 
