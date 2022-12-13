@@ -202,7 +202,7 @@ The footer then incorporates useful information including opening times, the sho
 
 # Testing
 
-Manual testing and responsiveness was tested throughout development to adjust the website as features were added. It was decided to wait until the skeleton structure was there before validation was tested to ensure the code base was sound enough to be tested.
+Manual testing and responsiveness was tested throughout development to adjust the website as features were added. It was decided to wait until the skeleton structure was there before validation was tested to ensure the code base was sound enough to be tested. The code was refactored during the build process to ensure unused code was deleted and ensure the code was clean.
 ## Cross-Browser Testing
 This site was tested across the three most widely used browsers today - Google Chrome, Microsoft Edge and Safari. The site worked well across all three browsers and discrepancies were not found.
 ## Compatibility Testing
